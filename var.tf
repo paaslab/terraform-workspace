@@ -11,5 +11,5 @@ variable "client-key" {
 }
 
 variable "ca-crt" {
-  dtype = string
+  type = string
 }
