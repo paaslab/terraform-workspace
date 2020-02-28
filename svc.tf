@@ -10,7 +10,7 @@ resource "kubernetes_service" "example" {
     port {
       port        = 80
       target_port = 80
-      node_port   = 30002
+      node_port   = 30003
     }
 
     type = "NodePort"
